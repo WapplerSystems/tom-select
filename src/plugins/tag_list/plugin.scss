@@ -1,0 +1,22 @@
+
+.form-select-taglist {
+	flex-direction: column;
+}
+
+.ts-taglist {
+	list-style: none;
+	padding: 6px 0;
+	margin-bottom: 0;
+}
+
+.ts-taglist-item {
+	margin-right: 5px;
+	margin-bottom: 3px;
+	display: inline-block;
+}
+
+.ts-taglist-item button {
+	background: #ccc;
+	border: 0;
+	border-radius: 4px;
+}

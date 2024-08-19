@@ -79,6 +79,8 @@ $select-spinner-border-color:					$select-color-border !default;
 @import "../plugins/input_autogrow/plugin.scss";
 @import "../plugins/optgroup_columns/plugin.scss";
 @import "../plugins/remove_button/plugin.scss";
+@import "../plugins/tag_list/plugin.scss";
+@import "../plugins/counter/plugin.scss";
 
 :root {
 	--ts-pr-clear-button: 0;
@@ -125,11 +127,11 @@ $select-spinner-border-color:					$select-color-border !default;
 				border-width: $select-arrow-size $select-arrow-size 0 $select-arrow-size;
 				border-color: $select-arrow-color transparent transparent transparent;
 			}
-			
+
 			&:not(.rtl)::after {
 				right: $select-arrow-offset;
 			}
-			
+
 			&.rtl::after {
 				left: $select-arrow-offset;
 			}
